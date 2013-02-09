@@ -1,0 +1,16 @@
+/* When we don't set border-right-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-right: medium solid;
+}
+
+/* When we don't set border-right-style, default style <none> will be used - therefore 
+no border will be rendered */
+.two {
+  border-right: 1px red;
+}
+
+/* Other border-right style example */
+.three {
+  border-right: dotted 2px red;
+}
